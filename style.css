@@ -164,6 +164,53 @@ button.color {
     height: 100%;  
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
 }
+/* our-popular-tour-area */
+.our-popular-tour-area{
+    margin: 100px 0;
+}
+.popular-tour-content{
+    display: flex; 
+    justify-content: space-between;
+    
+}
+.popular-content{
+    padding-right: 50px;
+}
+.popular-content h2{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800; 
+}
+.popular-content p{
+    margin:24px 0 ;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.popular-content li{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding-bottom: 16px;
+}
+
+.buttoncommon button{
+    background: #FF5400;
+    color: #fff;
+    width: 174px;
+    height: 52px; ;
+    border-radius: 8px; 
+    border:0;   
+}
 
 
 
@@ -221,5 +268,15 @@ button.color {
         padding-top: 24px;
         padding-bottom: 32px;
         
+    }
+    .popular-tour-content{
+        display: grid; 
+        justify-content: space-between; 
+    }
+    .popular-content{
+        margin-bottom: 20px;
+    }
+    .popular-img img{
+        width: 100%;
     }
 }
