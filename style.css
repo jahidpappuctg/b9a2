@@ -304,6 +304,7 @@ button.color {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
+    padding: 32px
 }
 .choose-card{
     display: grid;
@@ -326,6 +327,15 @@ button.color {
     font-style: normal;
     font-weight: 400; 
     padding-top: 16px;
+}
+/*newletter-section */
+
+.newletter-section{
+
+}
+.newsletter-content{
+    display: list-item;
+    justify-content: space-between;
 }
 
 
@@ -424,5 +434,34 @@ padding-top: 25px;
     }
     .popular-img img{
         width: 100%;
+    }
+        
+    .firstrow{
+        display: grid;
+        grid-template-columns: auto;
+        margin-bottom: 10px;
+      
+    
+    }
+    .secondrow{
+        display: grid;
+        grid-template-columns: auto;
+        margin-bottom: 10px;
+        
+    
+    }
+
+    .thirdow{
+        display: grid;
+        grid-template-columns: auto ;
+        margin-bottom: 10px;
+        
+    
+    }
+
+    .choose-card{
+        display: grid;
+        grid-template-columns: auto; 
+        gap: 32px;
     }
 }
