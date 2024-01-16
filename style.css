@@ -330,6 +330,42 @@ button.color {
 
 
 
+/* footer */
+
+.footer-conent-area{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 0;
+}
+.logo-text p{
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 16px;
+}
+.footer-middle{
+    text-align: center;
+    margin-top: 32px;
+}
+.footer-bottom {
+    padding: 25px 0;
+}
+.footer-bottom p{
+    color: #131318; 
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align: center;
+padding-top: 25px;
+}
+.footer-bottom hr{
+    
+}
+
 
 
 
