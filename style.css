@@ -331,11 +331,11 @@ button.color {
 /*newletter-section */
 
 .newletter-section{
-
+    margin-bottom: 100px;
 }
 .newsletter-content{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap:24px
 }
 .newletter-text{
@@ -345,15 +345,78 @@ button.color {
     height: 422px; 
     padding: 40px;
 }
+.ntext h4{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.ntext p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding-top: 16px;
+    padding-bottom: 24px;
+   
+}
 
 .newsletter-image img{
     width: 100%;
 }
-.form{
+.form { 
+   margin-top: 48px;
+}
+.form input, button{ 
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    display: block;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 0;
+}
+.form button{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #fff;
+}
+.newsletter-image{
     width: 672px;
-    height: 422px;
-    flex-shrink: 0;
-
+    height: 422px; 
+    position: relative;
+}
+.newsletter-image .save70{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg); 
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+}
+.save70 h5{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.save70 h3{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
 }
 
 
@@ -381,13 +444,13 @@ button.color {
     padding: 25px 0;
 }
 .footer-bottom p{
-    color: #131318; 
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-text-align: center;
-padding-top: 25px;
+        color: #131318; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    padding-top: 25px;
 }
 .footer-bottom hr{
     
@@ -472,8 +535,7 @@ padding-top: 25px;
         display: grid;
         grid-template-columns: auto ;
         margin-bottom: 10px;
-        
-    
+ 
     }
 
     .choose-card{
@@ -481,4 +543,30 @@ padding-top: 25px;
         grid-template-columns: auto; 
         gap: 32px;
     }
+    .newsletter-content{
+        display: grid;   
+        grid-template-columns: auto; 
+        gap: 32px;
+    } 
+    .newsletter-image img{
+        width:70%;
+    }
+
+    
+.newsletter-image .save70{
+    width: 150px;
+    height: 100px; 
+    right: 210px;
+    bottom: 150px;
+}
+.save70 h5{ 
+    font-size: 14px; 
+}
+.save70 h3{ 
+    font-size: 18px; 
+}
+.newletter-section{
+    margin-bottom: 0;
+}
+   
 }
