@@ -278,8 +278,55 @@ button.color {
 }
 
 
+/*why-choice-area*/
 
+.why-choice-area{
+    margin: 100px 0;
+}
+.choose-content{
 
+}
+
+.choose-card{
+    margin-top: 48px;
+}
+.choose-card .c1{
+    
+}
+.card-left, .card-middle{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.card-right {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.choose-card{
+    display: grid;
+    grid-template-columns: auto auto; 
+    gap: 32px;
+}
+
+.choose-card .c1 h3{
+    color: #131318; 
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800; 
+    padding-top: 32px;
+}
+.choose-card .c1 p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400; 
+    padding-top: 16px;
+}
 
 
 
