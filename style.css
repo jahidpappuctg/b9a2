@@ -273,7 +273,7 @@ button.color {
     font-size: 28px; 
     font-weight: 800; 
     top: 50%;
-    left: 20%; 
+    left: 50%; 
     transform: translate(-50%);
 }
 /* happy client */
@@ -311,6 +311,8 @@ button.color {
     font-weight: 800;
     margin-top: 16px;
 }
+/* perfect palce */
+
 
 /*why-choice-area*/
 
@@ -333,7 +335,14 @@ button.color {
     background: rgba(251, 181, 99, 0.05);
     padding: 32px;
 }
+.third_image{ 
+    padding-top: 24px;
+    width: 573px;
+    height: 284px; ; 
+    margin: 0 auto;
 
+
+}
 .card-right {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
@@ -354,6 +363,7 @@ button.color {
     font-weight: 800; 
     padding-top: 32px;
 }
+
 .choose-card .c1 p{
     color: #5A5A5D;
     font-family: Mulish;
@@ -361,7 +371,8 @@ button.color {
     font-style: normal;
     font-weight: 400; 
     padding-top: 16px;
-}
+} 
+
 /*newletter-section */
 
 .newletter-section{
@@ -518,7 +529,6 @@ button.color {
    
     .hero-content{
         display: grid;
-       
 
     }
     .hero-button{
@@ -538,6 +548,9 @@ button.color {
         padding-top: 24px;
         padding-bottom: 32px;
         
+    }
+    .our-popular-tour-area{
+        margin: 50px 0;
     }
     .popular-tour-content{
         display: grid; 
@@ -582,10 +595,11 @@ button.color {
     .newsletter-image img{
         width:70%;
     }
-.why-choice-area{
-    margin: 50px 0;
-}
+    .why-choice-area{
+        margin: 50px 0;
+    }
         
+     
     .newsletter-image .save70{
         width: 150px;
         height: 100px; 
