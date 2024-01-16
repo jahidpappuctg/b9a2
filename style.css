@@ -273,10 +273,44 @@ button.color {
     font-size: 28px; 
     font-weight: 800; 
     top: 50%;
-    left: 50%; 
+    left: 20%; 
     transform: translate(-50%);
 }
+/* happy client */
+.happy-client-area{
+    margin: 100px 0;
+}
+.card1 img{
+    border: 1px solid rebeccapurple;
+    border-radius: 50%;
+    padding: 20px;
+    width: 50%;
+}
+.clint-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card1 {
+    text-align: center;
+}
+.card1 h3{
+    color: tomato;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px; 
+    font-weight: 800;
+    margin-top: 16px;
+}
 
+.card1 p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px; 
+    font-weight: 800;
+    margin-top: 16px;
+}
 
 /*why-choice-area*/
 
@@ -520,23 +554,20 @@ button.color {
         display: grid;
         grid-template-columns: auto;
         margin-bottom: 10px;
-      
-    
+
     }
     .secondrow{
         display: grid;
         grid-template-columns: auto;
         margin-bottom: 10px;
-        
-    
+ 
     }
 
     .thirdow{
         display: grid;
         grid-template-columns: auto ;
         margin-bottom: 10px;
- 
-    }
+     }
 
     .choose-card{
         display: grid;
@@ -551,22 +582,38 @@ button.color {
     .newsletter-image img{
         width:70%;
     }
-
-    
-.newsletter-image .save70{
-    width: 150px;
-    height: 100px; 
-    right: 210px;
-    bottom: 150px;
+.why-choice-area{
+    margin: 50px 0;
 }
-.save70 h5{ 
-    font-size: 14px; 
-}
-.save70 h3{ 
-    font-size: 18px; 
-}
-.newletter-section{
-    margin-bottom: 0;
-}
+        
+    .newsletter-image .save70{
+        width: 150px;
+        height: 100px; 
+        right: 210px;
+        bottom: 150px;
+    }
+    .save70 h5{ 
+        font-size: 14px; 
+    }
+    .save70 h3{ 
+        font-size: 18px; 
+    }
+    .newletter-section{
+        margin-bottom: 0;
+    }
+    .happy-client-area{
+        margin: 50px 0;
+    }
+    .clint-img{
+        display: grid; 
+        
+    }
+    .card1{
+        margin-bottom: 14px;
+        padding: 14px 0;
+    }
+    .card1 h3{
+        font-size: 18px;
+    }
    
 }
