@@ -334,10 +334,27 @@ button.color {
 
 }
 .newsletter-content{
-    display: list-item;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
+    gap:24px
+}
+.newletter-text{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 422px; 
+    padding: 40px;
 }
 
+.newsletter-image img{
+    width: 100%;
+}
+.form{
+    width: 672px;
+    height: 422px;
+    flex-shrink: 0;
+
+}
 
 
 /* footer */
