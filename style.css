@@ -82,6 +82,8 @@ body{
 
 
 /*hero-area  */
+
+/*hero-area  */
 .hero-area{
     position: relative;
 }
@@ -94,8 +96,6 @@ body{
     background-position: center;
     padding: 160px 0;
     position: relative;
-    
-   
 }
 
 .hero-content{
@@ -159,6 +159,7 @@ button.color {
     background: #FF5400;
     color: #fff;
 }
+ 
 
 .hero-overlay{
     position:absolute;
@@ -178,6 +179,8 @@ button.color {
     
 }
 .popular-content{
+    width: 50%;
+    height: 100%;
     padding-right: 50px;
 }
 .popular-content h2{
@@ -205,6 +208,10 @@ button.color {
     font-weight: 400;
     line-height: 26px; /* 162.5% */
     padding-bottom: 16px;
+}
+.popular-img{
+    width: 50%;
+    height: 100%;
 }
 
 .buttoncommon button{
@@ -383,15 +390,18 @@ button.color {
     margin-bottom: 100px;
 }
 .newsletter-content{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap:24px
 }
 .newletter-text{
     border-radius: 16px;
     border: 1px solid #FF5400;
-    width: 474px;
-    height: 422px; 
+    width: 50%;
+    height: 100%;
     padding: 40px;
 }
 .ntext h4{
@@ -413,7 +423,11 @@ button.color {
     padding-bottom: 24px;
    
 }
-
+.newsletter-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
 .newsletter-image img{
     width: 100%;
 }
@@ -493,7 +507,7 @@ button.color {
     padding: 25px 0;
 }
 .footer-bottom p{
-        color: #131318; 
+    color: #131318; 
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -521,18 +535,22 @@ button.color {
     .container{
         padding-left: 30px;
     }
-    .menu-img{
-       display: block;
-    }
+   
     .nav-area{
+        display: flex;
+        align-items: center;
         justify-content: space-between
     }
+    .menu-img{
+        display: block;
+     }
     ul {
         display: none;
     }
-   
+  
     .hero-content{
         display: grid;
+        width: 100%;
 
     }
     .hero-button{
@@ -553,6 +571,7 @@ button.color {
         padding-bottom: 32px;
         
     }
+   
     .our-popular-tour-area{
         margin: 50px 0;
     }
@@ -561,10 +580,16 @@ button.color {
         justify-content: space-between; 
     }
     .popular-content{
+        width: 100%;
         margin-bottom: 20px;
     }
-    .popular-img img{
+    .popular-content h2{ 
+        font-size: 25px; 
+    }
+    
+    .popular-img{
         width: 100%;
+        height: 100%;
     }
         
     .firstrow{
@@ -594,10 +619,13 @@ button.color {
     .newsletter-content{
         display: grid;   
         grid-template-columns: auto; 
-        gap: 32px;
+        gap: 32px; 
     } 
-    .newsletter-image img{
-        width:70%;
+    .newletter-text{
+        width: 100%;
+    }
+    .newsletter-image{
+        width:100%;
     }
     .why-choice-area{
         margin: 50px 0;
@@ -607,8 +635,7 @@ button.color {
     .newsletter-image .save70{
         width: 150px;
         height: 100px; 
-        right: 210px;
-        bottom: 150px;
+        bottom: 18px; 
     }
     .save70 h5{ 
         font-size: 14px; 
@@ -625,6 +652,13 @@ button.color {
     .clint-img{
         display: grid; 
         
+    }
+    .card-middle, .card-right, .card-left  {
+        width: 100%; 
+    }
+    .card-middle{
+        width: 550px;
+        height: 289px; 
     }
     .card1{
         margin-bottom: 14px;
