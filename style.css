@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+ 
 body{
     font-family: 'Mulish', sans-serif;
 }
@@ -383,6 +383,69 @@ button.color {
     font-weight: 400; 
     padding-top: 16px;
 } 
+/* dealanddiscounts */
+
+.dealanddiscounts{
+     margin: 100px 0; 
+     
+}
+.section-img{
+    background-image: url(Images/Group\ 39.png);                
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 45px;
+     
+}
+.full-content{
+    padding: 30px;
+    width: 479px;
+    height: 350px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px); 
+}
+.text-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text-middle p.price{
+    padding: 16px 0;
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;  
+}
+ 
+.btn{
+    width: 150px;
+    height: 52px; 
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+}
+.text-middle h4{
+    margin-top: 24px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.text-middle p
+{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */  
+}
 
 /*newletter-section */
 
